@@ -1,3 +1,13 @@
+# This version
+
+This is a temporary, ad-hoc fork for the sake of including changes needed
+for [TsFlower](https://github.com/gnprice/tsflower).
+
+The changes found here have been sent upstream as PRs, which hopefully will
+get merged there in due course.  In the meantime, this is published to NPM
+to facilitate using the changes.
+
+
 # AST Types ![CI](https://github.com/benjamn/ast-types/workflows/CI/badge.svg)
 
 This module provides an efficient, modular,
