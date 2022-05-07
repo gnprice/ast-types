@@ -2123,11 +2123,11 @@ export interface InterfaceTypeAnnotationBuilder {
 }
 
 export interface InterfaceExtendsBuilder {
-  (id: K.IdentifierKind): namedTypes.InterfaceExtends;
+  (id: K.IdentifierKind | K.QualifiedTypeIdentifierKind): namedTypes.InterfaceExtends;
   from(
     params: {
       comments?: K.CommentKind[] | null,
-      id: K.IdentifierKind,
+      id: K.IdentifierKind | K.QualifiedTypeIdentifierKind,
       loc?: K.SourceLocationKind | null,
       typeParameters?: K.TypeParameterInstantiationKind | null
     }
