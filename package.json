@@ -1,7 +1,7 @@
 {
   "author": "Ben Newman <bn@cs.stanford.edu>",
   "name": "@gregprice/ast-types",
-  "version": "0.15.3-0.tsflower.2",
+  "version": "0.15.3-0.tsflower.3",
   "description": "Temporary ad-hoc fork of Esprima-compatible implementation of the Mozilla JS Parser API",
   "keywords": [
     "ast",
