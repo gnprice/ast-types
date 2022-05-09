@@ -171,6 +171,7 @@ export default function (fork: Fork) {
     .field("key", or(def("Literal"), def("Identifier")))
     .field("value", def("FlowType"))
     .field("optional", Boolean)
+    .field("kind", or("init", "get", "set"))
     .field("static", Boolean, defaults["false"])
     .field("method", Boolean, defaults["false"])
     .field("variance", LegacyVariance, defaults["null"]);

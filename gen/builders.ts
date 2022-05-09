@@ -1907,6 +1907,7 @@ export interface ObjectTypePropertyBuilder {
     params: {
       comments?: K.CommentKind[] | null,
       key: K.LiteralKind | K.IdentifierKind,
+      kind: "init" | "get" | "set",
       loc?: K.SourceLocationKind | null,
       method?: boolean,
       optional: boolean,
